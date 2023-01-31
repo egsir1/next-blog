@@ -35,9 +35,3 @@
     text-align: left;
   }
 }
-
-@media (min-width: 400px) {
-  .header h1 {
-    color: red;
-  }
-}
