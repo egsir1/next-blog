@@ -1,0 +1,64 @@
+.contact {
+  background-color: rgb(220, 217, 217);
+  margin: 2rem auto;
+  width: 70%;
+  padding: 1rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+.contact h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+}
+.contact label {
+  display: block;
+  font-weight: bold;
+  margin: var(--size-2) 0 var(--size-1) 0;
+}
+.form input,
+.form textarea {
+  font: inherit;
+  padding: var(--size-1);
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid var(--color-grey-400);
+  background-color: var(--color-grey-50);
+  resize: none;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.control {
+  flex: 1;
+  min-width: 10rem;
+}
+
+.actions {
+  text-align: right;
+  margin: 0.5rem;
+}
+.actions button {
+  padding: 0.5rem 1rem;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 18px;
+  border: rebeccapurple;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: var(--color-primary-500);
+  border-color: var(--color-primary-500);
+}
+
+@media (min-width: 768px) {
+  .contact h1 {
+    font-size: var(--size-16);
+    text-align: center;
+  }
+}

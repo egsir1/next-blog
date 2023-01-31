@@ -1,0 +1,39 @@
+.header {
+  background-color: var(--color-grey-900);
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin: 1rem;
+}
+.header li a {
+  color: var(--color-grey-100);
+  font-size: var(--size-4);
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: var(--color-grey-200);
+}
+
+@media (min-width: 768px) {
+  .header ul {
+    gap: 0.5rem;
+  }
+
+  .header a {
+    font-size: var(--size-5);
+  }
+}
