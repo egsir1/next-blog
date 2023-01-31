@@ -27,3 +27,5 @@
     padding: var(--size-8);
   }
 }
+@media (max-width: 500px) {
+}

@@ -10,3 +10,9 @@
     font-size: var(--size-8);
   }
 }
+
+@media (max-width: 450px) {
+  .logo {
+    font-size: 18px;
+  }
+}
